@@ -1,0 +1,6 @@
+strConnection = "ODBC;DRIVER={SQL Server Native Client 11.0};" & _
+                    "Encrypt=yes;Trusted_Connection=no;" & _
+                    "Server=" & ServerAddress & ";" & _
+                    "Database=" & DatabaseName & ";" & _
+                    "UID=" & UserName & ";" & _
+                    "PWD=" & Password & ";"
